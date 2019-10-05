@@ -36,7 +36,7 @@ has_many :groups_users
 |Column|Type|Options|
 |------|----|-------|
 |text|text|null: false|
-|image|text|
+|image|text|push|
 |user_id|integer|null: false, foreign_key: true|
 |group_id|integer|null: false, foreign_key: true|
 
